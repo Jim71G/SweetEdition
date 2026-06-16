@@ -3,6 +3,7 @@
 #
 # Sweet Edition 6.0 - Modular Installer
 # Uses: config.conf, lib/*.sh, modules/*.sh
+source "$(dirname "$0")/modules/update.sh"
 
 set -e
 
