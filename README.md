@@ -9,13 +9,6 @@ It includes GTK themes, Plasma styling, configuration modules, and a built‑in 
 
 
 ---
-# ⭐ **SweetEdition Logo Badge**  
-Add this to the top of your README.md:
-```markdown
-![SweetEdition Badge](https://img.shields.io/badge/SweetEdition-Theme_Engine-purple?style=for-the-badge)
-
-
-
 
 ## ✨ Features
 
