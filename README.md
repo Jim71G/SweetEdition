@@ -1,8 +1,9 @@
 # SweetEdition Theme Engine
 ---
 <p align="center">
-<img src="file:///home/jgore/SweetEdition/assets/sweetedition1.png" alt="SweetEdition Logo" width="300"
+  <img src="file:/home/jim/SweetEdition/sweetedition1.png" alt="SweetEdition Logo" width="300"/>
 </p>
+
 SweetEdition is a neon‑purple, glossy, KDE‑inspired theme engine designed to bring a unified Sweet aesthetic across your entire Linux environment.  
 It includes GTK themes, Plasma styling, configuration modules, and a built‑in update system powered by GitHub Pages.
 
