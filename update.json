@@ -1,8 +1,7 @@
 {
-  "latest_version": "1.0.0",
-  "release_title": "SweetEdition v1.0.0",
-  "release_notes": "Initial release of the SweetEdition Theme Engine.",
-  "download_url": "https://github.com/user-attachments/files/28991077/SweetEdition-v1.0.0.tar.gz",
-  "file_name": "SweetEdition-v1.0.0.tar.gz"
+    "version": "1.0.1",
+    "description": "SweetEdition v1.0.1 — Minor improvements, UI polish, and stability fixes.",
+    "download_url": "https://github.com/Jim716/SweetEdition/releases/download/v1.0.1/SweetEdition-v1.0.1.tar.gz"
 }
+
 
