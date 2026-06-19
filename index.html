@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SweetEdition Theme Engine</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #0a0a0f;
+            font-family: "Inter", sans-serif;
+            color: #e0e0ff;
+        }
+
+        header {
+            background: linear-gradient(90deg, #7a00ff, #b300ff);
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            box-shadow: 0 0 20px #7a00ff;
+        }
+
+        .container {
+            padding: 30px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 0 15px rgba(122, 0, 255, 0.3);
+        }
+
+        .title {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #d9b3ff;
+        }
+
+        .version-box {
+            font-size: 18px;
+            padding: 10px;
+            background: rgba(122, 0, 255, 0.2);
+            border-left: 4px solid #b300ff;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+        /* Update Banner */
+        #update-banner {
+            display: none;
+            background: #ff00aa;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            box-shadow: 0 0 20px #ff00aa;
+        }
+
+        #update-banner a {
+            color: #ffffff;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="update-banner"></div>
+
+    <header>SweetEdition Theme Engine</header>
+
+    <div class="container">
+
+        <div class="card">
+            <div class="title">Current Version</div>
+            <div class="version-box" id="local-version">Loading...</div>
+        </div>
+
+        <div class="card">
+            <div class="title">About SweetEdition</div>
+            <p>
+                SweetEdition is a neon‑purple, glossy, KDE‑inspired theme engine designed to bring
+                a unified Sweet aesthetic across your entire environment.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Load updater -->
+    <script src="update.js"></script>
+
+</body>
+</html>
