@@ -1,0 +1,22 @@
+## 🚀 SweetEdition vX.X.X
+
+### ✨ What's New
+- List major new features here
+
+### 🛠 Improvements
+- List UI polish, performance improvements, or stability fixes
+
+### 🐞 Bug Fixes
+- List any resolved issues
+
+---
+
+## 📦 Download
+**SweetEdition-vX.X.X.tar.gz**
+
+---
+
+## 🔧 Installation
+```bash
+chmod +x sweet-installer.sh
+./sweet-installer.sh
