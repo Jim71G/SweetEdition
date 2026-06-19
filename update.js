@@ -17,6 +17,10 @@ async function checkForUpdates() {
         console.log("Local Version:", localVersion);
         console.log("Remote Version:", remoteVersion);
 
+        // Update the UI with the local version
+        document.getElementById("local-version").textContent = localVersion;
+
+
         if (isNewerVersion(remoteVersion, localVersion)) {
             console.log("Update available:", remoteVersion);
             showUpdateBanner(updateData);
