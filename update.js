@@ -1,6 +1,6 @@
 async function checkForUpdates() {
     const localVersion = "1.0.0";
-    const updateUrl = "https://raw.githubusercontent.com/Jim716/SweetEdition/main/update.json";
+    const updateUrl = "https://raw.githubusercontent.com/Jim71G/SweetEdition/main/update.json";
 
 
     try {
